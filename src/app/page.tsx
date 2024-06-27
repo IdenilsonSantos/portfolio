@@ -1,4 +1,5 @@
 import AboutSection from "@/components/AboutSection";
+import Experience from "@/components/Experience";
 import HeroSection from "@/components/HeroSection";
 import Navbar from "@/components/NavBar";
 
@@ -9,6 +10,7 @@ export default function Home() {
       <div className="max-w-4xl mx-auto px-4 sm:px-6">
         <HeroSection />
         <AboutSection/>
+        <Experience/>
       </div>
     </main>
   );

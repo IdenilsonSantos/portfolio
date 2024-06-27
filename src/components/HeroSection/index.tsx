@@ -20,9 +20,9 @@ const HeroSection = () => {
             sequence={[
               "Idenilson",
               1000,
-              "Dev Frontend",
+              "Desenvolvedor Frontend",
               1000,
-              "Dev Backend",
+              "Desenvolvedor Backend",
               1000,
             ]}
             wrapper="span"
@@ -30,12 +30,6 @@ const HeroSection = () => {
             repeat={Infinity}
           />
         </h1>
-        <p className="text-[#ADB7BE] text-base sm:text-lg mb-6 lg:text-xl">
-          Sou um desenvolvedor fullstack (React.js e Node.js) focado em
-          desenvolver soluções que permitam uma melhor experiência.
-          Eventualmente utilizo outras tecnolgias que melhor se apliquem ao
-          projeto que estou atuando no momento.
-        </p>
         <div>
           <Link
             href="/#contact"

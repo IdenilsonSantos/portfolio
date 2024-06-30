@@ -71,9 +71,9 @@ const Navbar = () => {
           className="text-2xl md:text-5xl text-white font-semibold"
         >
           <Image
-            width={100}
-            height={100}
-            src="https://res.cloudinary.com/djgvgwuwe/image/upload/v1719170032/portfolio/n8o6ovagd4qpfp4dylfi.svg"
+            width={130}
+            height={130}
+            src="https://res.cloudinary.com/djgvgwuwe/image/upload/v1719755537/portfolio/zbimoin6tmip5q3acsrj.svg"
             alt={""}
           />
         </Link>

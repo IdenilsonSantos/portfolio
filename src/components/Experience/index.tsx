@@ -41,7 +41,7 @@ const Experience = () => {
     <section className="text-white pt-24" id="experience">
       <div className="lgap-8 items-center py-8 xl:gap-16 sm:py-16">
         <div className="mt-4 md:mt-0 text-left flex flex-col h-full">
-          <h2 className="text-4xl font-bold text-white mb-4">Experiência</h2>
+          <h2 className="text-4xl font-bold text-white">Experiência</h2>
 
           <SectionExperience
             img="https://res.cloudinary.com/djgvgwuwe/image/upload/v1719521944/portfolio/xlhgzz8sgiudmcezjoce.png"

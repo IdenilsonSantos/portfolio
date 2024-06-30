@@ -1,8 +1,10 @@
 import AboutSection from "@/components/AboutSection";
+import ContactSection from "@/components/Contact";
 import Experience from "@/components/Experience";
 import HeroSection from "@/components/HeroSection";
 import Navbar from "@/components/NavBar";
-import Techs from "@/components/Techs";
+import ProjectsSection from "@/components/Projects";
+import TechsSection from "@/components/TechsSection";
 
 export default function Home() {
   return (
@@ -12,7 +14,9 @@ export default function Home() {
         <HeroSection />
         <AboutSection/>
         <Experience/>
-        <Techs/>
+        <TechsSection/>
+        <ProjectsSection/>
+        <ContactSection/>
       </div>
     </main>
   );

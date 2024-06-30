@@ -6,7 +6,7 @@ import { motion } from "framer-motion";
 import { useInView } from "framer-motion";
 import { techIcons } from "@/utils/techIcons";
 
-const Techs = () => {
+const TechsSection = () => {
   const ref = useRef(null);
   const isInView = useInView(ref, { once: true });
 
@@ -36,4 +36,4 @@ const Techs = () => {
   );
 };
 
-export default Techs;
+export default TechsSection;

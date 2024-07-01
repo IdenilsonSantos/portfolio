@@ -38,7 +38,7 @@ const HeroSection = () => {
             Me contrate
           </Link>
           <Link
-            href="/"
+            href="https://drive.google.com/uc?export=download&id=1U9mCXilh53G5IFawtKVlyrpEGY0Ch2KC"
             className="px-1 inline-block py-1 w-full sm:w-fit rounded-lg hover:text-teal-800 transition ease-in-out text-white mt-3"
           >
             <span className="block rounded px-5 py-2">Download CV</span>

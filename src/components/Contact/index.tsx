@@ -47,10 +47,10 @@ const ContactSection = () => {
           Vamos conversar um pouco ?
         </p>
         <div className="socials flex flex-row gap-2">
-          <Link href="github.com">
+          <Link href="https://github.com/IdenilsonSantos">
             <GithubIcon className="text-teal-600 hover:text-teal-400" />
           </Link>
-          <Link href="linkedin.com">
+          <Link href="https://www.linkedin.com/in/idenilsonsantosoliveira/">
             <LinkedinIcon className="text-teal-600 hover:text-teal-400" />
           </Link>
         </div>

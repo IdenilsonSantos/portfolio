@@ -31,4 +31,15 @@ export const projectsData = [
     previewUrl: "/",
     tags: ["React", "Tailwind"],
   },
+  {
+    id: 4,
+    title: "Portfolio",
+    description:
+      "Criação do portfolio próprio.",
+    image:
+      "https://res.cloudinary.com/djgvgwuwe/image/upload/v1719843697/portfolio/dfkmrlt38h7vddduakpa.png",
+    gitUrl: "https://github.com/IdenilsonSantos/portfolio",
+    previewUrl: "/",
+    tags: ["React", "Tailwind", "NextJs", "Frame motion"],
+  },
 ];

@@ -1,9 +1,9 @@
 import AboutSection from "@/components/AboutSection";
-import ContactSection from "@/components/Contact";
-import Experience from "@/components/Experience";
+import ContactSection from "@/components/ContactSection";
+import ExperienceSection from "@/components/ExperienceSection";
 import HeroSection from "@/components/HeroSection";
 import Navbar from "@/components/NavBar";
-import ProjectsSection from "@/components/Projects";
+import ProjectsSection from "@/components/ProjectsSection";
 import TechsSection from "@/components/TechsSection";
 
 export default function Home() {
@@ -13,7 +13,7 @@ export default function Home() {
       <div className="max-w-4xl mx-auto px-4 sm:px-6">
         <HeroSection />
         <AboutSection/>
-        <Experience/>
+        <ExperienceSection/>
         <TechsSection/>
         <ProjectsSection/>
         <ContactSection/>

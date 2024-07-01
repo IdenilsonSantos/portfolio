@@ -10,7 +10,7 @@ type Props = {
   children: ReactNode;
 };
 
-const SectionExperience = ({ img, company, func, date, children }: Props) => {
+const Experience = ({ img, company, func, date, children }: Props) => {
   return (
     <div className="mt-6 mb-6 gap-y-4 gap-x-10 items-center">
       <div className="flex flex-row sm:flex-col sm:gap-2 sm:mb-2 lg:flex-row justify-between">
@@ -36,14 +36,14 @@ const SectionExperience = ({ img, company, func, date, children }: Props) => {
   );
 };
 
-const Experience = () => {
+const ExperienceSection = () => {
   return (
     <section className="text-white pt-24" id="experience">
       <div className="lgap-8 items-center py-8 xl:gap-16 sm:py-16">
         <div className="mt-4 md:mt-0 text-left flex flex-col h-full">
           <h2 className="text-4xl font-bold text-white">Experiência</h2>
 
-          <SectionExperience
+          <Experience
             img="https://res.cloudinary.com/djgvgwuwe/image/upload/v1719521944/portfolio/xlhgzz8sgiudmcezjoce.png"
             company="Manejebem Assessoria Em Agricultura Sustentavel Ltda"
             date="Abril/2022 - Atualmente"
@@ -58,9 +58,9 @@ const Experience = () => {
             Colaboração no desenvolvimento do Backend, incluindo integrações com
             serviços externos e manipulação do banco de dados utilizando NestJs,
             TypeORM e MySQL.
-          </SectionExperience>
+          </Experience>
 
-          <SectionExperience
+          <Experience
             img="https://res.cloudinary.com/djgvgwuwe/image/upload/v1719521944/portfolio/qidcwvmjncyl1dbmrkve.png"
             company=" Colégio Dom Bosco Pontara Eireli"
             date="Fevereiro/2022 - Março/2022"
@@ -71,9 +71,9 @@ const Experience = () => {
             <br />
             Resolução de chamados internos para identificar e solucionar
             problemas relacionados à infraestrutura tecnológica.
-          </SectionExperience>
+          </Experience>
 
-          <SectionExperience
+          <Experience
             img="https://res.cloudinary.com/djgvgwuwe/image/upload/v1719521944/portfolio/ocls4gwnu2io445qukgb.jpg"
             company="Sanches e Vechiatte Ltda"
             date="Maio/2022 - Julho/2017"
@@ -85,9 +85,9 @@ const Experience = () => {
             <br />
             Manutenção preventiva para assegurar a integridade dos sistemas e
             minimizar impactos nas operações diárias.
-          </SectionExperience>
+          </Experience>
 
-          <SectionExperience
+          <Experience
             img="https://res.cloudinary.com/djgvgwuwe/image/upload/v1719521944/portfolio/ngjguqfqvfkorprdwwku.jpg"
             company="Hospital Moura Ltda"
             date="Outubro/2022 - Dezembro/2022"
@@ -101,11 +101,11 @@ const Experience = () => {
             <br />
             Colaboração multifuncional em diversos departamentos para otimizar a
             eficiência organizacional e o suporte operacional.
-          </SectionExperience>
+          </Experience>
         </div>
       </div>
     </section>
   );
 };
 
-export default Experience;
+export default ExperienceSection;
